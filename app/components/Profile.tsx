@@ -2,8 +2,8 @@ import React from 'react'
 import { Accordion, AccordionHeader, AccordionItem, Card, CardBody, Col, Container, Row } from 'react-bootstrap'
 import AccordionBody from 'react-bootstrap/esm/AccordionBody'
 
-
 function Profile() {
+
     return (
         <>
             <Container >
@@ -27,7 +27,7 @@ function Profile() {
                                                         </ul>
                                                     </li>
                                                 </ul>
-                                                <Accordion>
+                                                <Accordion defaultActiveKey="3" flush>
                                                     <AccordionItem eventKey="0">
                                                         <AccordionHeader><strong>ประวัติส่วนตัว</strong></AccordionHeader>
                                                         <AccordionBody>
@@ -85,7 +85,7 @@ function Profile() {
                                                             </ul>
                                                         </AccordionBody>
                                                     </AccordionItem>
-                                                    <AccordionItem defaultActiveKey="3">
+                                                    <AccordionItem eventKey="3">
                                                         <AccordionHeader><strong>ทักษะและความสามารถ</strong></AccordionHeader>
                                                         <AccordionBody >
                                                             <ul>
@@ -215,7 +215,6 @@ function Profile() {
                                                         </ul>
                                                     </li>
                                                 </ul>
-
 
 
                                             </CardBody>
