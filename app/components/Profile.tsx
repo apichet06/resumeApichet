@@ -12,14 +12,14 @@ function Profile() {
                         <Card className='shadow'>
                             <CardBody>
                                 <Row>
-                                    <Col md={8} className='text-nowrap d-flex align-items-center justify-content-center'>
+                                    <Col md={9} className='text-nowrap d-flex align-items-center justify-content-center'>
                                         <div>
                                             <strong style={{ fontSize: "70px" }}>นายอภิเชษฐ์ สิงห์นาครอง</strong>
                                             <h2 className='text-success'>PROGRAMMER SUPERVISOR</h2>
                                         </div>
                                     </Col>
-                                    <Col md={4} className='my-1'>
-                                        <Image src="./images/profile.jpg" alt='profile' width="55%" roundedCircle thumbnail />
+                                    <Col md={3} className='my-1'>
+                                        <Image src="./images/profile.jpg" alt='profile' width="60%" roundedCircle thumbnail />
                                     </Col>
                                     <Col md={12}><hr /></Col>
                                     <Col md={4}  >
