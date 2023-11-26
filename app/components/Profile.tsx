@@ -1,5 +1,5 @@
 import React from 'react'
-import { Accordion, AccordionHeader, AccordionItem, Card, CardBody, Col, Container, Row } from 'react-bootstrap'
+import { Accordion, AccordionHeader, AccordionItem, Card, CardBody, Col, Container, Image, Row } from 'react-bootstrap'
 import AccordionBody from 'react-bootstrap/esm/AccordionBody'
 
 function Profile() {
@@ -12,11 +12,16 @@ function Profile() {
                         <Card className='shadow'>
                             <CardBody>
                                 <Row>
-                                    <Col md={12}>
-                                        <strong style={{ fontSize: "60px" }}>นายอภิเชษฐ์ สิงห์นาครอง</strong>
-                                        <h3>PROGRAMMER SUPERVISOR</h3>
-                                        <hr />
+                                    <Col md={8} className='text-nowrap d-flex align-items-center justify-content-center'>
+                                        <div>
+                                            <strong style={{ fontSize: "70px" }}>นายอภิเชษฐ์ สิงห์นาครอง</strong>
+                                            <h2 className='text-success'>PROGRAMMER SUPERVISOR</h2>
+                                        </div>
                                     </Col>
+                                    <Col md={4} className='my-1'>
+                                        <Image src="./images/profile.jpg" alt='profile' width="55%" roundedCircle thumbnail />
+                                    </Col>
+                                    <Col md={12}><hr /></Col>
                                     <Col md={4}  >
                                         <Card >
                                             <CardBody>
@@ -172,7 +177,8 @@ function Profile() {
                                                                 <ul>
                                                                     <li>วิเคราะห์และออกแบบระบบ และรวบรวมข้อมูลส่งให้ทีม DEV พัฒนา Project</li>
                                                                     <li>ทดสอบระบบหาข้อผิดพลาดของระบบ กรณีมีระบบใหม่ๆ เกิดขึ้น </li>
-                                                                    <li>พัฒนาและปรับปรุงเว็บไซต์ จัดทำระบบ Frontend และ Backend ด้วยภาษา Asp Classic , javaScript , Ajax , jQuery,Sweet Alert ,Bootstrap 5 | Database Sql Server</li>
+                                                                    <li>พัฒนาและปรับปรุงเว็บไซต์ จัดทำระบบ Frontend และ Backend ด้วยภาษา Asp Classic,javaScript,Ajax,jQuery,Sweet Alert
+                                                                        ,Bootstrap 5 | Database Sql Server</li>
                                                                     <li>จัด Training วิธีการใช้งานระบบให้กับผู้ใช้งาน กรณีมีระบบใหม่ๆเกิดขึ้น</li>
                                                                     <li>ดูแลและแก้ไขปัญหาให้ผู้ใช้งานผ่านระบบ network ด้วยโปรแกรม RealVNC</li>
                                                                     <li>ใช้งาน Sap ตรวจสอบข้อมูล หากพบความผิดพลาดใน ระบบ K2</li>
@@ -186,8 +192,8 @@ function Profile() {
                                                             <li><strong className='text-secondary'>Programmer </strong>
                                                                 <ul>
                                                                     <li>วิเคราะห์และออกแบบระบบ</li>
-                                                                    <li>พัฒนาและปรับปรุงเว็บไซต์ จัดทำระบบ Front-end และ Back-end , Responsive สามารถใช้งานผ่าน Mobile ได้ </li>
-                                                                    <li>ภาษาที่ใช้ PHP, Html5 , My SQL, bootstrap 4 ,JavaScript , Ajax ,jQuery,Sweet Alert</li>
+                                                                    <li>พัฒนาและปรับปรุงเว็บไซต์ จัดทำระบบ Frontend และ Backend,Responsive สามารถใช้งานผ่าน Mobile ได้ </li>
+                                                                    <li>ภาษาที่ใช้ PHP,Html5,My SQL,bootstrap 4,JavaScript,Ajax,jQuery,Sweet Alert</li>
                                                                     <li>จัด Training วิธีการใช้งานระบบให้กับผู้ใช้งาน กรณีมีระบบใหม่ๆเกิดขึ้น</li>
                                                                     <li>จัดทำ clip video แนะนำขั้นตอนวิธีใช้งานระบบให้กลับลูกค้า </li>
                                                                 </ul>
@@ -195,11 +201,11 @@ function Profile() {
                                                         </ul>
                                                         <hr />
                                                         <ul>
-                                                            <li className='text-success'>บริษัทเมจิกเวิลด์ จำกัด  (ส.ค. 2559 - ต.ค. 2562)</li>
+                                                            <li className='text-success'>บริษัทเมจิกเวิลด์ จำกัด (ส.ค. 2559 - ต.ค. 2562)</li>
                                                             <li><strong className='text-secondary'>เจ้าหน้าที่ IT Support</strong>
                                                                 <ul>
                                                                     <li>วิเคราะห์และออกแบบระบบ</li>
-                                                                    <li>ปรับปรุงและพัฒนาเว็บไซต์ ด้วยภาษา PHP, Html5 , My SQL , bootstrap 4 , JavaScript , Ajax , jQuery</li>
+                                                                    <li>ปรับปรุงและพัฒนาเว็บไซต์ ด้วยภาษา PHP,Html5,My SQL,bootstrap 4,JavaScript,Ajax,jQuery</li>
                                                                     <li>ใช้โปรแกรม illustrator, Photoshop ในการออกแบบงานต่างๆ </li>
                                                                     <li>ติดตั้งระบบ pfSense Firewall ระบบ Authentications & ดูแลระบบ</li>
                                                                     <li>remote control ผ่านระบบ network เพื่อแก้ไขปัญหาต่างๆ ให้กับ User</li>
