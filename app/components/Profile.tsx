@@ -12,15 +12,16 @@ function Profile() {
                         <Card className='shadow'>
                             <CardBody>
                                 <Row>
-                                    <Col md={9} className='text-nowrap d-flex align-items-center justify-content-center'>
-                                        <div>
-                                            <strong style={{ fontSize: "70px" }}>นายอภิเชษฐ์ สิงห์นาครอง</strong>
-                                            <h2 className='text-success'>PROGRAMMER SUPERVISOR</h2>
-                                        </div>
-                                    </Col>
-                                    <Col md={3} className='my-1'>
+                                    <Col md={3} className='my-1 d-flex justify-content-center align-items-center'>
                                         <Image src="./images/profile.jpg" alt='profile' width="60%" roundedCircle thumbnail />
                                     </Col>
+                                    <Col md={9} className='d-flex align-items-center justify-content-center'>
+                                        <div>
+                                            <strong style={{ fontSize: "4vw" }}>นายอภิเชษฐ์ สิงห์นาครอง</strong>
+                                            <h2 className='text-success' style={{ fontSize: "2vw" }}>PROGRAMMER SUPERVISOR</h2>
+                                        </div>
+                                    </Col>
+
                                     <Col md={12}><hr /></Col>
                                     <Col md={4}  >
                                         <Card >
