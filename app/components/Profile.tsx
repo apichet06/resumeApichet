@@ -1,9 +1,10 @@
 import React from 'react'
 import { Accordion, AccordionHeader, AccordionItem, Card, CardBody, Col, Container, Image, Row } from 'react-bootstrap'
 import AccordionBody from 'react-bootstrap/esm/AccordionBody'
+import Php from './Php'
+import Aspclassic from './aspclassic/Aspclassic'
 
 function Profile() {
-
     return (
         <>
             <Container >
@@ -225,71 +226,26 @@ function Profile() {
                                             </CardBody>
                                         </Card>
                                     </Col>
-
                                     <Col md={12}>
                                         <hr />
                                     </Col>
-                                    <Col md={12} className='text-center'>
-                                        <h3>ผลงานที่ผ่านมา</h3>
-                                    </Col>
-                                    <Col md={6}>
-                                        <iframe
-                                            width="80%"
-                                            height="255"
-                                            src="https://www.youtube.com/embed/z4UFrab2Sm4"
-                                            title="YouTube video player"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowFullScreen>
-                                        </iframe>
-                                    </Col>
-                                    <Col md={6}>
-                                        <iframe
-                                            width="80%"
-                                            height="255"
-                                            src="https://www.youtube.com/embed/fi8neMI0Yhw"
-                                            title="YouTube video player"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowFullScreen>
-                                        </iframe>
-                                    </Col>
-                                    <Col md={6}>
-                                        <iframe
-                                            width="80%"
-                                            height="255"
-                                            src="https://www.youtube.com/embed/10lpkR5T05o"
-                                            title="YouTube video player"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowFullScreen>
-                                        </iframe>
-                                    </Col>
-                                    <Col md={6}>
-                                        <iframe
-                                            width="80%"
-                                            height="255"
-                                            src="https://www.youtube.com/embed/HzH6vW7k8sY"
-                                            title="YouTube video player"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowFullScreen>
-                                        </iframe>
-                                    </Col>
-                                    <Col md={6}>
-                                        <iframe
-                                            width="80%"
-                                            height="255"
-                                            src="https://www.youtube.com/embed/7-XJl3cOpU0"
-                                            title="YouTube video player"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowFullScreen>
-                                        </iframe>
-                                    </Col>
-
                                 </Row>
                             </CardBody>
                         </Card>
                     </Col>
-
+                    <Col md={12} className='text-center'>
+                        <Card>
+                            <CardBody>
+                                <h3>ผลงานที่ผ่านมา</h3>
+                                <hr />
+                                <Aspclassic />
+                                <Php />
+                            </CardBody>
+                        </Card>
+                    </Col>
                 </Row>
             </Container >
+            <hr />
         </>
 
     )
