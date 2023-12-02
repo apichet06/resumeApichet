@@ -236,7 +236,7 @@ function Profile() {
                     <Col md={12} className='text-center'>
                         <Card>
                             <CardBody>
-                                <h3>ผลงานที่ผ่านมา</h3>
+                                <h3>ผลงานในการพัฒนาระบบ</h3>
                                 <hr />
                                 <Aspclassic />
                                 <Php />
