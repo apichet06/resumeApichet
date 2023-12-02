@@ -112,7 +112,7 @@ export default function Php() {
                             allowFullScreen>
                         </iframe>
                     </Col>
-                    <Col md={6}></Col>
+
                     <Col md={12}><hr /></Col>
                     <Col md={6}>
                         <iframe
@@ -123,6 +123,17 @@ export default function Php() {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen>
                         </iframe>
+                    </Col>
+                    <Col md={6}>
+                        <ul className='text-start py-2'>
+                            <li>
+                                <h3>ระบบ Stock</h3>
+                                <ul>
+                                    <li>ระบบบันทึกการทำงานในแต่ละวันเพื่อสรุปงานที่ทำประจำเดือน/ปีให้กับผู้บริหารทราบ</li>
+                                    <li>พัฒนาด้วย Php version 5, Mysql, Bootstrap 4,javascript, Line notifications</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </Col>
                 </Row >
             </Container >
