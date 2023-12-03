@@ -3,6 +3,7 @@ import { Accordion, AccordionHeader, AccordionItem, Card, CardBody, Col, Contain
 import AccordionBody from 'react-bootstrap/esm/AccordionBody'
 import Php from './Php'
 import Aspclassic from './aspclassic/Aspclassic'
+import NodeExpress from './NodejsExp/NodeExpress'
 
 function Profile() {
     return (
@@ -238,6 +239,7 @@ function Profile() {
                             <CardBody>
                                 <h3>ผลงานในการพัฒนาระบบ</h3>
                                 <hr />
+                                <NodeExpress />
                                 <Aspclassic />
                                 <Php />
                             </CardBody>
